@@ -3,6 +3,11 @@ function Hero(){
         <section className= "min-h-[80vh] flex items-center">
             <div className= "max-w-7xl mx-auto px-6 py-20 w-full">
                 <p className= "test-sm font-medium uppercase tracking-widest text-gray-400 mb-4">Computer Engineering Student</p>
+                <img
+                    src="/images/profile.jpg"
+                    alt="Kadidjatou Yattassaye"
+                    className="w-64 h-80 object-cover rounded-2xl"
+                />
                 <h1 className ="text-5xl md:text-7xl font-bold tracking-tight max-w-4xl">
                     Hi! I'm Kadidjatou.
                 </h1>
@@ -19,6 +24,8 @@ function Hero(){
                         Contact Me
                     </a>
                 </div>
+                
+  
             </div>
         </section>
     )
