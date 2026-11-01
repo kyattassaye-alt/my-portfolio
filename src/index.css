@@ -1,1 +1,19 @@
 @import 'tailwindcss';
+
+:root {
+  --forest: #0C3B2E;
+  --sage: #6D9773;
+  --sand: #BBAA82;
+  --gold: #FFBA00;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--forest);
+  color: #F5F3EB;
+  font-family: Inter, system-ui, sans-serif;
+}
