@@ -1,36 +1,53 @@
-function About(){
-    return(
-        <section id="about" className="border-t border-gray-800">
-      <div className="mx-auto max-w-7xl px-6 py-20">
-        <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-gray-500">
-          About Me
+
+function About() {
+  return (
+    <section id="about" className="bg-[#F5F1E7] text-[#0C3B2E]">
+      <div className="mx-auto max-w-6xl px-6 py-24">
+
+        <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#6D9773]">
+          A Little About Me
         </p>
 
-        <h2 className="mb-6 text-3xl font-bold tracking-tight md:text-4xl">
-          Engineering ideas into reality.
-        </h2>
+        <div className="grid gap-12 md:grid-cols-[1fr_1.5fr]">
 
-        <div className="max-w-3xl space-y-4 text-lg leading-relaxed text-gray-400">
-          <p>
-            I'm a Computer Engineering student at Illinois Institute of
-            Technology, interested in software engineering, cloud computing,
-            and intelligent systems.
-          </p>
+          {/* Heading */}
+          <div>
+            <h2 className="font-serif text-4xl font-bold leading-tight sm:text-5xl">
+              Curious by nature.
+              <span className="text-[#6D9773]"> Engineer by passion.</span>
+            </h2>
+          </div>
 
-          <p>
-            I enjoy solving technical problems and building projects that
-            combine software, hardware, and practical applications.
-          </p>
+          {/* Description */}
+          <div>
+            <p className="text-lg leading-8 text-[#40594A]">
+              I'm a Computer Engineering student at Illinois Institute
+              of Technology with an interest in software engineering,
+              cloud computing, artificial intelligence, and embedded systems.
+            </p>
 
-          <p>
-            Through my coursework and projects, I'm developing my skills in
-            programming, systems, databases, and embedded technologies.
-          </p>
+            <p className="mt-5 text-lg leading-8 text-[#40594A]">
+              I enjoy exploring new technologies, tackling technical
+              challenges, and building projects that connect software
+              with the physical world.
+            </p>
+
+            <div className="mt-8 flex flex-wrap gap-3">
+              {["Problem Solving", "Technology", "Innovation", "Continuous Learning"].map((item) => (
+                <span
+                  key={item}
+                  className="border border-[#6D9773]/40 px-4 py-2 text-xs font-medium uppercase tracking-wider text-[#0C3B2E]"
+                >
+                  {item}
+                </span>
+              ))}
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
   );
-        
-
 }
+
 export default About;
