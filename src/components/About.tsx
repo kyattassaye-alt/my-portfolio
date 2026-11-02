@@ -21,9 +21,9 @@ function About() {
           {/* Description */}
           <div>
             <p className="text-lg leading-8 text-[#40594A]">
-              I'm a Computer Engineering student at Illinois Institute
-              of Technology with an interest in software engineering,
-              cloud computing, artificial intelligence, and embedded systems.
+              I'm a Computer Engineering student at Illinois Institute of Technology 
+              with an interest in software engineering, cloud computing, artificial intelligence, 
+              and embedded systems.
             </p>
 
             <p className="mt-5 text-lg leading-8 text-[#40594A]">
